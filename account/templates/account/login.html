@@ -1,0 +1,23 @@
+{% extends 'crm/base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}Log in {% endblock %}
+
+{% block content %}
+
+    <style>
+        #id_username{
+            width:250px;
+        }
+
+        #id_password{
+            width: 250px;
+        }
+    </style>
+    <h1>Log In</h1>
+
+    <form action="." method="post">
+    {{ form|crispy }}
+    {% csrf_token %}
+        <p><input type="submit" value="Log In"></p>
+    </form>
+{% endblock %}
