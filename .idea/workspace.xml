@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cb21341-85d2-4a8f-91c7-5a4080f97ae4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/templates/registration/password_change_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/templates/registration/password_reset_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/templates/registration/password_reset_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm/registration/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/registration/password_change_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm/templates/crm/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/crm/templates/crm/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/crm/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfscrm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfscrm/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfscrm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfscrm/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="2cb21341-85d2-4a8f-91c7-5a4080f97ae4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +43,7 @@
         <counts>
           <entry key="Procfile" value="7" />
           <entry key="html" value="2940" />
-          <entry key="py" value="4952" />
+          <entry key="py" value="4956" />
           <entry key="txt" value="70" />
         </counts>
       </usages-collector>
@@ -77,7 +51,7 @@
         <counts>
           <entry key="HTML" value="2940" />
           <entry key="PLAIN_TEXT" value="77" />
-          <entry key="Python" value="4952" />
+          <entry key="Python" value="4956" />
         </counts>
       </usages-collector>
     </session>
@@ -140,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mfscrm/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-91">
-              <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
+            <state relative-caret-position="1335">
+              <caret line="168" column="8" selection-start-line="168" selection-start-column="8" selection-end-line="168" selection-end-column="8" />
               <folding>
                 <element signature="e#307#316#0" expanded="true" />
               </folding>
@@ -669,8 +643,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mfscrm/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
+        <state relative-caret-position="1335">
+          <caret line="168" column="8" selection-start-line="168" selection-start-column="8" selection-end-line="168" selection-end-column="8" />
           <folding>
             <element signature="e#307#316#0" expanded="true" />
           </folding>
