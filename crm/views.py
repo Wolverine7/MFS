@@ -52,6 +52,7 @@ def service_edit(request, pk):
        form = ServiceForm(instance=service)
    return render(request, 'crm/service_edit.html', {'form': form})
 
+@login_required
 def product_edit(request,pk):
     product = get_object_or_404(Product, pk=pk)
     if request.method == "POST":
