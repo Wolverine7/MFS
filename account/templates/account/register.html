@@ -9,7 +9,7 @@
 {% endif %}
 <br /><br />
 
-                <form action="" class="form-group" method="POST" action="{% url 'account:register' %}">
+                <form action="" class="form-group" method="POST" action="{% url 'register' %}">
                      {% csrf_token %}
                      <label for="username">Username: </label>
                      <input type="text" name="username" class="form-control">
