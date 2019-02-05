@@ -8,7 +8,7 @@
     {% endif %}
     <br />
     <br />
-    <form method="post" action="{% url 'account:login' %}">
+    <form method="post" action="{% url 'login' %}">
         {{ form|crispy }}
         {% csrf_token %}
 
@@ -17,6 +17,6 @@
         <input type="hidden" name="next" value="{{ next }}"/>
     </form>
 
-    <p><a href="{% url "account:password_reset" %}">Please click here to reset your password</a></p>
-    <p><a href="{% url "account:register" %}">Please click here to register</a></p
+    <p><a href="{% url "password_reset" %}">Please click here to reset your password</a></p>
+    <p><a href="{% url "register" %}">Please click here to register</a></p
 {% endblock %}

@@ -81,13 +81,13 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="{% url 'account:logout' %}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
-                            <li><a href="{% url 'account:password_change' %}"><i class="fa fa-btn fa-sign-out"></i>Password Change</a></li>
+                            <li><a href="{% url 'logout' %}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                            <li><a href="{% url 'password_change' %}"><i class="fa fa-btn fa-sign-out"></i>Password Change</a></li>
                         </ul>
                     </li>
                 {% else %}
-                    <li><a href="{% url 'account:login' %}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    <li><a href="{% url 'account:register' %}"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
+                    <li><a href="{% url 'login' %}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="{% url 'register' %}"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
                 {% endif %}
             </ul>
         </div>
