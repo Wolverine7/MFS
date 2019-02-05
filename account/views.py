@@ -1,3 +1,28 @@
-from django.shortcuts import render
+from .forms import UserRegistrationForm
+from django.shortcuts import render, redirect
+from django.contrib.auth.models import User
+from django.contrib import auth
 
-# Create your views here.
+
+
+def register(request):
+    # Check if the request is POST method
+    if request.method == 'POST':
+        # The user needs to be registered
+        if request.POST['password1'] == request.POST['password2']:
+            try:
+                # if password valid then check if the user already exists
+                user = User.objects.get(username=request.POST['username'])
+                return render(request, 'account/register.html', {'error': 'User is already registered'})
+            except User.DoesNotExist:
+                # if user does not exist then Register
+                user = User.objects.create_user(request.POST['username'], password=request.POST['password1'])
+                auth.login(request, user)
+                return redirect('crm:home')
+        else:  # if passwords do not match throw an error
+            return render(request, 'account/register.html', {'error': 'Passwords must match'})
+    else:
+
+        return render(request, 'account/register.html')
+
+

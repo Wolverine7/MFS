@@ -9,7 +9,7 @@
     <br />
     <br />
     <form method="post" action="{% url 'account:login' %}">
-        {{ form.as_p }}
+        {{ form|crispy }}
         {% csrf_token %}
 
 
@@ -18,4 +18,5 @@
     </form>
 
     <p><a href="{% url "account:password_reset" %}">Please click here to reset your password</a></p>
+    <p><a href="{% url "account:register" %}">Please click here to register</a></p
 {% endblock %}
